@@ -104,4 +104,8 @@ class TripController {
             '*'{ render status: NOT_FOUND }
         }
     }
+
+    def hi() {
+        render "How are you?"
+    }
 }
