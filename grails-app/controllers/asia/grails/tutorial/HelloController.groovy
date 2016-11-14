@@ -9,4 +9,10 @@ class HelloController {
         list << new Person(firstName: 'Sam', lastName:'Robinson', age:47)
         [ list:list ]
     }
+    
+    def displayForm() {
+        // just provide value for age. First Name and Last name are blanks.
+        Person person = new Person(firstName: 'Sam', lastName:'Robinson', age:55) 
+        [ person:person ]
+    }
 }
