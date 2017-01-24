@@ -7,7 +7,6 @@ class BookController {
 
     public String writeSimpleString() {
         println 'This works fine under url mappings'
-        response
-        return
+        response << "Hello World"
     }
 }
