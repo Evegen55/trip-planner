@@ -12,5 +12,7 @@ class UrlMappings {
         "/"(view:"/index")
         "500"(view:'/error')
         "404"(view:'/notFound')
+
+        "/book_simple_string"(controller: "book", action: "writeSimpleString")
     }
 }
